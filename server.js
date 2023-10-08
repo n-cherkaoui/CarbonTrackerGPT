@@ -3,7 +3,7 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 const OpenAI = require('openai');
-const port = process.env.PORT || 8000;
+const port = 9000;
 const axios = require('axios');
 app.use(cors());
 app.use((req, res, next) =>
